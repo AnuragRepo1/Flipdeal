@@ -1,7 +1,6 @@
 package com.flipdeal.ecom.service.impl;
 
 import com.flipdeal.ecom.configuration.AppConfig;
-import com.flipdeal.ecom.constant.FlipDealConstant;
 import com.flipdeal.ecom.constant.enums.Origin;
 import com.flipdeal.ecom.constant.enums.ProductCategory;
 import com.flipdeal.ecom.dto.DiscountDetail;
@@ -11,7 +10,6 @@ import com.flipdeal.ecom.utils.Common;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
 import java.util.Objects;
 @Service
 public class PromotionSetA implements PromotionStrategy {
