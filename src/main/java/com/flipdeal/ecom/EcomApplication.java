@@ -27,6 +27,7 @@ public class EcomApplication {
 		FlipDealClient flipDealClient = context.getBean(FlipDealClient.class);
 		try {
 			if (args.length == 0){
+				System.out.println("No argument comming");
 				throw new Exception("No argument");
 			}
 			List<Product> products = flipDealClient.fetchProductDetails();
